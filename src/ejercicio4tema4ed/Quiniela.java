@@ -206,7 +206,7 @@ public class Quiniela extends javax.swing.JFrame {
         
         for (int i = 0; i < model1.size(); i++) 
         {
-            int numero =aleatorio.nextInt(3-1)+1;
+          int numero =aleatorio.nextInt(3-1)+1;
             
             if(numero==1)
             {
@@ -222,12 +222,12 @@ public class Quiniela extends javax.swing.JFrame {
             {
                 resultado = "2";
             }
-            String partid=model1.get(i).toString()+"--> "+resultado;
-            model.addElement(partid);
+         String partid=model1.get(i).toString()+"--> "+resultado;
+         model.addElement(partid);
             
         }
-        ListResultado.setModel(model);
-        ListPartido.setModel(new DefaultListModel());
+          ListResultado.setModel(model);
+          ListPartido.setModel(new DefaultListModel());
         
     }//GEN-LAST:event_bRealizarActionPerformed
 
